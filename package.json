@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/escape-string-regexp": "^1.0.0",
     "@types/react-redux": "^6.0.11",
+    "@types/react-router": "^4.4.3",
+    "@types/react-router-dom": "^4.3.1",
+    "escape-string-regexp": "^1.0.5",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
-    "react-scripts-ts": "3.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "^4.0.8",
     "redux": "^4.0.1"
   },
   "scripts": {
@@ -21,6 +26,13 @@
     "@types/node": "^10.12.12",
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
+    "redux-devtools-extension": "^2.13.7",
     "typescript": "^3.2.2"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
